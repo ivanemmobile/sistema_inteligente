@@ -31,7 +31,7 @@ include_once 'create.php';
            <form  class="insert" action="create.php" method="POST">
             <!- onde todas as informações serão incluida na pagina create.php->
             <h3>Nome do Cliente</h3>
-            <input  class="i" name="nome"  id="nome" placeholder="Nome completo" type="text">
+            <input  class="i" name="nome"  id="nomecliente" placeholder="Nome completo" type="text">
 
             <h3>E-mail</h3>
             <input class="i" name="email" id="email" placeholder="Email do cliente" type="text">
