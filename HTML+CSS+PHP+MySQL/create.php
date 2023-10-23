@@ -17,7 +17,7 @@ include_once 'db_connect.php';
 if(isset($_POST['cadastrar'])):
     $nome = mysqli_escape_string($connect, $_POST['nome'] );
     $email = mysqli_escape_string($connect, $_POST['email']);
-    $cidade = mysqli_escape_string($connect, $_POST['telefone']);
+    $telefone = mysqli_escape_string($connect, $_POST['telefone']);
 
 //inserindo os dados na base de dados
     $sql ="INSERT INTO cliente (nome, email, telefone) VALUES ('$nome' , '$email', '$telefone')";
